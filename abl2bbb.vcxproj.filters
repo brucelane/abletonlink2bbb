@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAbletonLink">
+			<UniqueIdentifier>{A484E538-7342-9CE2-4235-AF3D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAbletonLink\src">
+			<UniqueIdentifier>{796511B9-59B6-6B02-F4B3-CFA7}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAbletonLink\src\ofxAbletonLink.h">
+			<Filter>addons\ofxAbletonLink\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAbletonLink\src\ofxAbletonLinkThreaded.h">
+			<Filter>addons\ofxAbletonLink\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
